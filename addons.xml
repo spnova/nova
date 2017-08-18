@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="repository.supernova.nova.backup" name="Nova Repository Backup" version="6.0" provider-name="Supernova">
+		<extension point="xbmc.addon.repository" name="Nova Repository Backup">
+			<info compressed="false">https://raw.githubusercontent.com/spnova/nova/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/spnova/nova/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/spnova/nova/master/zips</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Nova Repository Backup</summary>
+			<description>Nova Repository Backup</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+</addons>
